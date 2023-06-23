@@ -82,6 +82,6 @@ usercard.appendChild(p);
 let buy = document.getElementById('buy')
 
 buy.addEventListener('click',() => {
-    document.getElementById('main').style.display = 'none';
+    document.getElementById('container').style.display = 'none';
     document.getElementById('form').style.display = 'display';
 })
