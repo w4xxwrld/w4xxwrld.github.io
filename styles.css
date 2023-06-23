@@ -44,3 +44,7 @@ body{
 .usercard{
     text-align: center;
 }
+
+#form{
+    display: none;
+}
