@@ -80,8 +80,3 @@ p.innerText = `${tg.initDataUnsafe.first_name} ${tg.initDataUnsafe.last_name}`
 usercard.appendChild(p);
 
 let buy = document.getElementById('buy')
-
-buy.addEventListener('click',() => {
-    document.getElementById('inner').style.display = 'none';
-    document.getElementById('form').style.display = 'display';
-})
